@@ -138,7 +138,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Debdoot Manna - [mannadebdoot007@proton.me](mailto:mannadebdoot007@proton.me)
 
-Project Link: [https://github.com/yourusername/debdootmanna](https://github.com/yourusername/debdootmanna)
+Project Link: [https://github.com/DebdootManna/website](https://github.com/DebdootManna/website)
 
 ## 🙏 Acknowledgments
 
