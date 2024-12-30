@@ -5,17 +5,17 @@ export default function Home() {
   return (
     <div className="container flex flex-col items-center justify-center min-h-[calc(100vh-3.5rem)] py-8">
       <main className="flex flex-col items-center justify-center w-full max-w-4xl mx-auto px-4">
-        <div className="relative w-full max-w-lg mb-8"> {/* Updated container div */}
+        <div className="relative w-full max-w-md aspect-square mb-12 bg-black rounded-lg p-8">
           <Image
-            src="/images/hero-image.jpg"
-            alt="Hero image representing music and art"
-            width={800}
-            height={450}
-            className="rounded-lg w-full h-auto"
+            src="/unknown-pleasures.png"
+            alt="Waveform visualization representing music and technology"
+            width={500}
+            height={500}
+            className="w-full h-full object-contain dark:invert"
             priority
           />
         </div>
-        <div className="text-center space-y-6">
+        <div className="text-center space-y-6 max-w-2xl">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">
             Welcome to My Creative World
           </h1>
@@ -30,6 +30,15 @@ export default function Home() {
           </Link>
         </div>
       </main>
+      <footer className="mt-auto text-center text-sm text-muted-foreground">
+        <p>
+          Built by Debdoot Manna. The source code is available on{' '}
+          <Link href="https://github.com" className="underline hover:text-primary">
+            GitHub
+          </Link>
+          .
+        </p>
+      </footer>
     </div>
   )
 }
