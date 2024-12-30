@@ -5,16 +5,17 @@ export default function Home() {
   return (
     <div className="container flex flex-col items-center justify-center min-h-[calc(100vh-3.5rem)] py-8">
       <main className="flex flex-col items-center justify-center w-full max-w-4xl mx-auto px-4">
-        <div className="relative w-full aspect-square md:aspect-[4/3] lg:aspect-[16/9] max-h-[60vh] mb-8">
+        <div className="relative w-full max-w-lg aspect-square mb-8">
           <Image
-            src="/images/hero-image.jpg"
-            alt="Hero image representing music and art"
-            fill
+            src="/unknown-pleasures.png"
+            alt="Waveform visualization representing music and technology"
+            width={500}
+            height={500}
+            className="rounded-lg dark:invert"
             priority
-            className="rounded-lg object-contain"
           />
         </div>
-        <div className="text-center space-y-6 mt-4">
+        <div className="text-center space-y-6">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">
             Welcome to My Creative World
           </h1>
