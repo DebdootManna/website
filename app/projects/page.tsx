@@ -2,19 +2,19 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const musicProjects = [
-  { title: 'Ethereal Echoes', description: 'A future bass journey through soundscapes', audio: '/audio/ethereal-echoes.mp3', link: 'https://soundcloud.com/your-profile/ethereal-echoes' },
-  { title: 'Neon Nights', description: 'An electrifying house track with retro vibes', audio: '/audio/neon-nights.mp3', link: 'https://spotify.com/track/neon-nights' },
+  { title: 'Accomplish', description: 'A future bass journey through soundscapes', audio: '/audio/accomplish.mp3', link: 'https://soundcloud.com/themessengersmusic/accomplish' },
+  { title: 'Cosmic Alibi', description: 'An experimental house, afro trap beat', audio: '/audio/cosmic-alibi.mp3', link: 'https://soundcloud.com/themessengersmusic/cosmic-alibi' },
   // Add more music projects here
 ]
 
 const artProjects = [
-  { title: 'Abstract Harmony', description: 'A vibrant exploration of color and form', image: '/images/abstract-harmony.jpg' },
-  { title: 'Urban Reflections', description: 'A photographic series capturing city life', image: '/images/urban-reflections.jpg' },
+  { title: 'Liquor', description: 'The glint of the glass, the richness of the color.', image: '/images/liquor.jpg' },
+  { title: 'Stairs and hallway', description: 'The texture of the wood, the curve of the banister.', image: '/images/stairs-and-hall.jpg' },
   // Add more art projects here
 ]
 
 const filmProjects = [
-  { title: 'Echoes of Silence', description: 'A short film exploring the power of non-verbal communication', video: '/videos/echoes-of-silence-trailer.mp4' },
+  { title: 'My Diary', description: "A short film based on the development of India through a man's one day.", video: '/videos/my-diary.mp4' },
   // Add more film projects here
 ]
 
